@@ -14,7 +14,7 @@ require (
 	github.com/pborman/getopt v0.0.0-20180811024354-2b5b3bfb099b
 	github.com/sigstore/cosign v1.8.1-0.20220601172726-ae90c7495df6
 	github.com/sigstore/fulcio v0.1.2-0.20220114150912-86a2036f9bc7
-	github.com/sigstore/rekor v0.8.1
+	github.com/sigstore/rekor v0.9.0
 	github.com/sigstore/sigstore v1.2.1-0.20220614141825-9c0e2e247545
 	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
 	golang.org/x/oauth2 v0.0.0-20220524215830-622c5d57e401
@@ -134,7 +134,7 @@ require (
 	github.com/soheilhy/cmux v0.1.5 // indirect
 	github.com/spf13/afero v1.8.2 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
-	github.com/spf13/cobra v1.4.0 // indirect
+	github.com/spf13/cobra v1.5.0 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.12.0 // indirect
