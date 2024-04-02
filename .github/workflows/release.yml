@@ -46,11 +46,11 @@ jobs:
           args: release --clean
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          KO_DOCKER_REPO: ghcr.io/sigstore/gitsign
+          KO_DOCKER_REPO: ghcr.io/cpanato/gitsign
 
       - name: sign image
         run: |
-          digest=$(crane digest ghcr.io/sigstore/gitsign:${{ env.RELEASE_VERSION }})
-          cosign sign "ghcr.io/sigstore/gitsign@${digest}"
+          digest=$(crane digest ghcr.io/cpanato/gitsign:${{ env.RELEASE_VERSION }})
+          cosign sign "ghcr.io/cpanato/gitsign@${digest}"
         env:
           COSIGN_YES: true
