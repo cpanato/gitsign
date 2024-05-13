@@ -19,7 +19,7 @@ require (
 	github.com/secure-systems-lab/go-securesystemslib v0.8.0
 	github.com/sigstore/cosign/v2 v2.2.3
 	github.com/sigstore/fulcio v1.4.4
-	github.com/sigstore/protobuf-specs v0.3.0
+	github.com/sigstore/protobuf-specs v0.3.2
 	github.com/sigstore/rekor v1.3.5
 	github.com/sigstore/sigstore v1.8.3
 	github.com/spf13/cobra v1.8.0
@@ -27,7 +27,7 @@ require (
 	golang.org/x/crypto v0.21.0
 	golang.org/x/oauth2 v0.18.0
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/protobuf v1.34.1
 )
 
 require (
